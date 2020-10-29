@@ -1,18 +1,34 @@
 <html>
- <head>
- <title>Welcome!</title>
- </head>
+
+	<head>
+		<title>Welcome!</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script>
+		function show()
+		{
+		alert("hey");
+		}
+		</script>
+	</head>
+	
  <body>
- <div style="background: red">Welcome</div>
- <div style="float: right">
- Home | Contact | CV | Projects
- </div>
+	<div id="header">
+		<div class="header2" style="float: left">My Site</div>
+		<div class="header2" style="float: right"> Home | Projects </div>
+	</div>
+	
+<div>
+<p class="pagetitle">Hello and welcome to my site!</p>
 
-<p>Hello and welcome to my site!</p>
-<p style="font-weight: bold">This site is likely the best place to be</p>
-<img src="images/puffin.jpg">
-<p>This word is <span style="color: red">red</span>.</p>
+<p class="hobby">Hobby 1</p>
 
+<p class="hobby">Hobby 2</p>
+
+<p class="hobby">Hobby 3</p>
+
+<img class="image" src="images/puffin.jpg">
+
+<a onclick="show()" href="#">Click me</a>
 </div>
- </body>
+</body>
 </html>

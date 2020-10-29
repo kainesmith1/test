@@ -1,0 +1,46 @@
+#header
+{
+ border-style: solid;
+ border-width: 1px;
+ border-color: black;
+ height:50px;
+}
+
+.header2
+{
+ background-color: grey;
+ font-size: 30pt;
+ color: orange;
+ 
+}
+
+.hobby
+{
+ font-family: Comic Sans MS;
+ font-size: 18;
+ color: Teal;
+ border-style: solid;
+ border-width: 1px;
+ border-color: black;
+ height:50px;
+}
+
+.pagetitle
+{
+ font-family: Black Gothic Heavy;
+ font-size: 18;
+ font-weight: bold;
+ color: Teal;
+ border-style: solid;
+ border-width: 1px;
+ border-color: black;
+ height:25px;
+}
+
+.image
+
+{
+	width: 400px;
+	height: 400px;
+
+}
